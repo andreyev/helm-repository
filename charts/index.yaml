@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  http-helloworld-python-simple:
+  - apiVersion: v2
+    created: "2025-05-02T12:53:03.353876792-03:00"
+    digest: 93bf5f5333b6e418de610307847e356d89797c145221342130dcd54a7a2f0046
+    name: http-helloworld-python-simple
+    urls:
+    - https://github.com/andreyev/helm-repository/releases/download/v0.1.0/http-helloworld-python-simple-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-02T12:53:03.353481535-03:00"
