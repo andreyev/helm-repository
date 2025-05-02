@@ -1,3 +1,3 @@
 apiVersion: v2
-name: helloserver
+name: http-helloworld-python-simple
 version: 0.1.0

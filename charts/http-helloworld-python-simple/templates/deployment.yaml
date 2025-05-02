@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloserver
+  name: http-helloworld-python-simple
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: helloserver
+      app: http-helloworld-python-simple
   template:
     metadata:
       labels:
-        app: helloserver
+        app: http-helloworld-python-simple
     spec:
       containers:
-        - name: helloserver
+        - name: http-helloworld-python-simple
           image: python:3.12-slim
           command: ["python3", "-u", "-c"]
           args:
